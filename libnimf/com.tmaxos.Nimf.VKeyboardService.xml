@@ -1,0 +1,15 @@
+<node>
+	<interface name="com.tmaxos.Nimf.VKeyboardService">
+		<method name='FocusIn'>
+			<arg direction='in'  type='s' name='ic' />
+		</method>
+		<method name='FocusOut'>
+			<arg direction='in'  type='s' name='ic' />
+		</method>
+		<method name='EngineChange'>
+			<arg direction='in'  type='s' name='engineid' />
+			<arg direction='in'  type='s' name='method' />
+		</method>
+
+	</interface>
+</node>
